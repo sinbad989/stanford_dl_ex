@@ -1,3 +1,5 @@
+
+
 function [f,g] = logistic_regression(theta, X,y)
   %
   % Arguments:
@@ -13,12 +15,22 @@ function [f,g] = logistic_regression(theta, X,y)
   f = 0;
   g = zeros(size(theta));
 
+  
 
   %
   % TODO:  Compute the objective function by looping over the dataset and summing
   %        up the objective values for each example.  Store the result in 'f'.
-  %
+  
+  %%% YOUR CODE HERE %%%
+% Objective function calculation
+
+
+
   % TODO:  Compute the gradient of the objective by looping over the dataset and summing
   %        up the gradients (df/dtheta) for each example. Store the result in 'g'.
-  %
-%%% YOUR CODE HERE %%%
+
+ 
+
+
+
+

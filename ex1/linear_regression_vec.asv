@@ -19,5 +19,5 @@ function [f,g] = linear_regression_vec(theta, X,y)
   %
 %%% YOUR CODE HERE %%%
 
-f = sum((theta'*X - y).^2)/2;
-g = sum(X'*(theta'*X-y));
+f = sum((theta'*X - y')^2)/2;
+g = 
